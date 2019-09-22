@@ -8,6 +8,7 @@ Description of the project concept in your own words.
    - stu-view, and e-mail link
   - Search bar and button
 - Hero Section
+- "Apply" button (Fixed)
   - Picture of students working in the Waterfront Campus
   - Brief description of what Interaction Design is on the picture, low opacity text
   - Brief list of what career options exist in this pathway
@@ -17,7 +18,6 @@ Description of the project concept in your own words.
   - Things to do on campus
   - A "day-in-the-life" example: what do designers do on a daily basis
   - Graduate quote on the program
-  - "Apply" button
 - Technical Information
   - Program code, location, duration, credential, tuition cost, program requirements
 - Other information
