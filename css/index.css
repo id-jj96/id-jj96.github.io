@@ -1,5 +1,32 @@
+/*
+
+-Set up
+-Resets
+-Style Guide + Custom Property
+
+*/
+html {
+	/*----CSS CUSTOM PROPERTY----*/
+
+	/*Background Colours */
+--primary-a: 
+--primary-b:
+--secondary-a:
+--secondary-b:
+--background:
+--error:
+}
+	/* Foreground colours/*
+--on-primary:
+--one-secondary:
+--one-background:
+--on-error:
+
+
+
 body {
-	background-color: white;
+	background-color: #FFFFFF;
+	color: #222222
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1rem;
