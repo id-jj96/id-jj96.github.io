@@ -66,6 +66,7 @@ header {
     margin-top: 0;  
 }
 .navbar > a {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
 	vertical-align: top;
 	text-decoration: none;
@@ -77,6 +78,7 @@ header {
 }
 
 .navbar input[type=text] {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	float: right;
 	padding: 0.4em;
 	border: none;
@@ -86,6 +88,7 @@ header {
   }
 
   .text-block {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	position: absolute;
 	top: 50%;
     left: 50%;
@@ -151,10 +154,9 @@ header {
   h2 {
 	font-family: "HindMadurai";
 	text-transform: capitalize;
-	width: 300px;
-	border: 15px;
-	padding: 20px;
-	margin: 20px;
+	border: 1em;
+	padding: 1em;
+	margin: 1em;
   }
   
   .overview-table {
@@ -163,6 +165,8 @@ header {
   }
 
   .overview-table th, td {
+	font-family: "HindMadurai";
+	font-size: 1em;
 	text-align: center;
 	text-transform: capitalize;
 	padding: 1.5em;
@@ -190,7 +194,7 @@ header {
   p {
 	font-family: "HindMadurai";
 	width: 80%;
-	border: 15px;
+	border: 0.938em;
 	padding: 30px;
 	margin: 20px;
   }
@@ -215,10 +219,9 @@ header {
 	h3 {
 	font-family: "HindMadurai";
 	text-transform: capitalize;
-	width: 300px;
-	border: 15px;
-	padding: 20px;
-	margin: 20px;
+	border: 1em;
+	padding: 1em;
+	margin: 1em;
 	}
 
 	.column1 {
@@ -244,6 +247,64 @@ header {
 	padding: 1em;
 	text-align: left;
 	border-bottom: 1px solid #ddd;
+  }
+
+  .button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 1.5em 3em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1em;
+	margin: 2em 1em;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+
+  .button1 {
+	background-color: white; 
+	color: black; 
+	border: 0.5em solid #4CAF50;
+  }
+  
+  .button1:hover {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .button2 {
+	background-color: white; 
+	color: black; 
+	border: 0.5em solid #008CBA;
+  }
+  
+  .button2:hover {
+	background-color: #008CBA;
+	color: white;
+  }
+
+  .button3 {
+	background-color: white; 
+	color: black; 
+	border: 0.5em solid orange;
+  }
+  
+  .button3:hover {
+	background-color: orange;
+	color: white;
+  }
+
+  .waterfront {
+	width: 45%;
+	height: 35%;
+  }
+
+  .design_building {
+	width: 75%;
+	height: 70%;
   }
   
   .footer {
